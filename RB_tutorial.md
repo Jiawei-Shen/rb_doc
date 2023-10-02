@@ -64,7 +64,7 @@ Data Visualization page is the main function of WashU Repeat Browser.
 ![Heatmap View](https://wangftp.wustl.edu/~scheng/repeat_browser/documentation/DataVisual_Heatmap.png)
 Heatmap View (above) is the first plot embedded in WashU Repeat Browser. It provides the functions where users can cluster columns(repeats) or rows(datasets), or both, as well as re-order the heatmap by any of the methods, alphabetic order, rank by sum, or rank by variance. You can also set the opacity and the number of rows you want to show by the side bar. The different colors at the edge of the matrix denote the different class/family (for the column) and different datasets (for the row).<br/>
 
-![Heatmap_Demo](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Heatmap_demo.gif)<br/>
+![Heatmap_Demo](https://wang.wustl.edu/img/Heatmap_demo.gif)<br/>
 
 You can also switch to the CAGE-seq heatmap through the Assay Type drop down list.<br/>
 Heatmap view of enrichment scores of datasets on TE subfamilies. Users can click a specific cell where each cell denotes ratio of average score or RPKM as per below. 
