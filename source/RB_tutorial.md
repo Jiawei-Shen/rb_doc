@@ -50,7 +50,7 @@ Repeats page (above) provides sunburst plot for easy selection of repeats on cla
 Sunburst plot can be played with via the GIF demo below. <br/>
 ![Consensus_Demo](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Consensus_demo.gif)
 **Single click** on the panel would lead to downstream level (class to family to subfamily), and the first **double click** on the panel will select specific family, or subfamily, in which case the colorful panel would become gray. The second **double click** on the panel would undo the selction operation which would lead the panel to colorful one. In contrast, the **single click** on the central white region would back to the upstream level, while the **double click** on the central white region would back to the class level by default.
-![Repeats_Selection_Sunburnt](./gif/repeats_selection_sunburnt.gif)<br/>
+![Repeats_Selection_Sunburnt](https://wang.wustl.edu/img/repeats_selection_sunburnt.gif)<br/>
 Our website includes a useful search feature that allows users to quickly find and select their desired subfamily. By simply typing the name of the subfamily in the search bar and clicking on the corresponding item in the dropdown menu, the subfamily will be selected.
 
 

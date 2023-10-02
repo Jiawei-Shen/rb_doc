@@ -6,6 +6,9 @@
 Welcome to WashU Repeat Browser's documentation!
 ========================================================
 
+.. image:: https://wang.wustl.edu/img/rb_logo.png
+   :alt: repeat browser logo
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
