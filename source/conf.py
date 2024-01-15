@@ -17,11 +17,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'WashU Repeat Browser'
-copyright = '2022, Jiawei Shen'
+copyright = '2023, Jiawei Shen'
 author = 'Jiawei Shen'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '1'
 
 
 # -- General configuration ---------------------------------------------------
