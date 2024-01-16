@@ -191,7 +191,7 @@ In this window, we provide a brief view of selected data in heatmap.
 This function bar contains several functions for the heatmap. 
 
 ### Function Icons
-![Heatmap Function Icons](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page1functionIcons.png) <br />
+![Heatmap Function Icons](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page1functionIcons.png) <br />
 These four icons provides four different functions. <br />
 1. Share the weblink. <br />
 2. Screenshot. <br />
@@ -199,11 +199,11 @@ These four icons provides four different functions. <br />
 4. Crop the matrix into a smaller heatmap. <br />
 
 ### Heatmap Rank Order
-![Heatmap Rank](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page1Rank.png) <br />
+![Heatmap Rank](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page1Rank.png) <br />
 We provide four different rank order to display the heatmap.
 
 ### Heatmap Slider Bar
-![Heatmap Slider Bar](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page1sliderBar.png) <br />
+![Heatmap Slider Bar](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page1sliderBar.png) <br />
 We provide some slider bars to customize your parameters of the heatmap. Additionally, there's a search bar tp search the data.
 
 ### A Simple Demo
@@ -211,50 +211,50 @@ We provide some slider bars to customize your parameters of the heatmap. Additio
 
 
 ## Consensus View
-![Consensus View](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page2.png) <br />
+![Consensus View](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page2.png) <br />
 
 ### Ruler Track
-![Ruler Track](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page2rulerDemo.gif) <br />
+![Ruler Track](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page2rulerDemo.gif) <br />
 Dragging this ruler, you can change the area of the consensus view displayed.
 
 ### Base-Pair Track
-![Base-Pair Track](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page2basepair.png) <br />
+![Base-Pair Track](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page2basepair.png) <br />
 This base pair track displays the base pair in the consensus region. It won't show the character unless the region is less than 50 base pairs. 
 
 ### Main Tracks of Consensus View
-![Main Tracks](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page2mainTracks.png) <br />
+![Main Tracks](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page2mainTracks.png) <br />
 These three tracks are <br />
 1. Genome Coverage. It is the count of genome copies on each base pairs of consensus region. 2, 3. The count of the reads on the consensus region. <br />
 2,3. The Read Counts. It is the key tracks. It provides the read counts in user selected data on the consensus region. 
 For the ChIP-seq data, it has two tracks (signal and control). For the others sequencing data, it will only have one track (signal).
 
 ### Add Tracks Button
-![Add Tracks](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page2addTrack.png) <br />
+![Add Tracks](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page2addTrack.png) <br />
 Users may want to add some more tracks of the other data. The figure shows the panel. 
 
 ## Genome View
-![Genome View Page](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page3genomeviewPage.png) <br />
+![Genome View Page](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page3genomeviewPage.png) <br />
 Genome view (above) is a bird’s eye view of different locations of TE copies on the genome. A filter sets the threshold of enrichment scores of corresponding TE copies is provided.
 
 ### Genome Chart
-![Genome View](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page3genomeView.png) <br />
+![Genome View](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page3genomeView.png) <br />
 This is genome view, each bar in the chromosome is a genome copy. The color corresponds to the RPKM value, with deeper colors indicating higher RPKM values.
 
 ### Genome Plot Chart
-![Genome View](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page3genomePlot.png) <br />
+![Genome View](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page3genomePlot.png) <br />
 Regarding the chromosome, we provide a dot plot for a detailed view. To access the plot, simply click on the blue section of the chromosome bar. 
 
 ### Link to WashU Genome Browser Panel
-![Alert Window](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page3Jump.jpg) <br />
+![Alert Window](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page3Jump.jpg) <br />
 Click the dot in the genome plot, and you can jump to the WashU genome browser. Click Ok in this alert window. <br />
-![WashU Genome Browser](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/WashU-Epigenome-Browser.png) <br />
+![WashU Genome Browser](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/WashU-Epigenome-Browser.png) <br />
 
 ### Filter Bar
-![Filter Bar](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page4filterBar.png) <br />
+![Filter Bar](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page4filterBar.png) <br />
 If you wish to filter genome copies on the chromosome, you can utilize the filter bar. This tool can exclude genome copies that are below the specified threshold.
 
 ### Genome View Cart
-![Filter Bar](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page4filterBar.png) <br />
+![Filter Bar](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page4filterBar.png) <br />
 You have the option to add additional data to the cart. The contents of the cart will then be displayed on the genome view. <br />
 And here is the panel to add data.
 ![Data Panel](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page3addPanel.png) <br />
