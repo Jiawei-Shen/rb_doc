@@ -22,7 +22,7 @@ This tabs listed the number of current selected files and repeats. Click this ta
 Click this tab, you will jump to the data visualization section with 3 different selectable pages on the left bar.
 
 
-## Homepage
+### Homepage
 ![Home Page](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/homepage_main.png) <br />
 You can start exploring WashU Repeat Browser from the Homepage (above). There are some brief text and figure illustrations.  
 
@@ -265,15 +265,19 @@ Heatmap view of enrichment scores of datasets on TE subfamilies. Users can click
 ![Heatmap RPKM Calculation](https://wangftp.wustl.edu/~scheng/repeat_browser/documentation/Heatmap_RPKM.png)
 
 
-## Consensus View
-![Heatmap_Jumpto_Consensus](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Heatmap_jumpto_Consensus.gif)<br/>
-Users can click a specific cell and jump to the Consensus View panel.
+[comment]: <> (### Consensus View)
 
-![Consensus View](https://wangftp.wustl.edu/~scheng/repeat_browser/documentation/DataVisual_ConsensusVIew.png)
-Consensus View panel (above) displays epigenomic data anchored on a TE consensus sequence. Both unique reads and multi-reads can be displayed.<br/>
+[comment]: <> (![Heatmap_Jumpto_Consensus]&#40;https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Heatmap_jumpto_Consensus.gif&#41;<br/>)
 
-You can explore different biological meanings with different assay types, like open chromatin regions with ATAC-seq data, gene expression level with CAGE-seq, and TF binding sites with ChIP-seq data. The specific TE subfamily on different datasets can also be compared through the **Add Track** function, and the All reads and Uniquely-mapped reads can also be explored. Besides, the genome coverage and raw consensus sequence are also provided for further exploration.
-![Consensus_Demo](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Consensus_demo.gif)<br/>
+[comment]: <> (Users can click a specific cell and jump to the Consensus View panel.)
+
+[comment]: <> (![Consensus View]&#40;https://wangftp.wustl.edu/~scheng/repeat_browser/documentation/DataVisual_ConsensusVIew.png&#41;)
+
+[comment]: <> (Consensus View panel &#40;above&#41; displays epigenomic data anchored on a TE consensus sequence. Both unique reads and multi-reads can be displayed.<br/>)
+
+[comment]: <> (You can explore different biological meanings with different assay types, like open chromatin regions with ATAC-seq data, gene expression level with CAGE-seq, and TF binding sites with ChIP-seq data. The specific TE subfamily on different datasets can also be compared through the **Add Track** function, and the All reads and Uniquely-mapped reads can also be explored. Besides, the genome coverage and raw consensus sequence are also provided for further exploration.)
+
+[comment]: <> (![Consensus_Demo]&#40;https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Consensus_demo.gif&#41;<br/>)
 
 
 [comment]: <> (:bangbang:Users can click the **Genome View** on the left panel or the right-buttom button to jump to the Genome View panel.)
