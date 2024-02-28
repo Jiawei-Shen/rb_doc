@@ -9,7 +9,7 @@
 # Main Page
 ## The Top Menu
 ![The Top Bar Menu](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/headbar.jpg)  
-The top navigation menu (above) controls the three main parts of Repeat Browser functionality. From the left to right are the Homepage, Input Data, and Data Visualization. You can also get access to documentation and the links to Wang Lab and WashU Med.
+The top navigation menu (above) controls the three main parts of Repeat Browser functionality. From the left to right are the Homepage, Input Data, and Data Visualization. You can also get access to documentation and the links to Wang Lab and WashU Medical School.
 ## The Tabs
 ![The Logo of Repeat Browser](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/homepage_RBlogo.jpg) <br />
 On the very left is our logo of repeat browser.
@@ -46,10 +46,10 @@ Input Data page is the first step of utilizing the repeat browser. You can pick 
 ![The Display Windows](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/input_page1.jpg) <br />
 On the first page, you will see the selected data and its repeats. Default data, along with repeats, is provided for first-time users. To remove the data or repeats, you can click either the close button or the "remove all" button.
 ### Session File
-![Session File Button](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/input_page1SessionFile.jpg) <br />
+![Session File Button](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/input_page1SessionFile.png) <br />
 Click this button, users can download the session files which containing all the selected data and repeats. Users can restore the repeat browser by uploading this session file. 
 ### The Format of Session File
-![Session File Format](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/input_sessionFormat.jpg) <br />
+![Session File Format](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/input_sessionFormat.png) <br />
 The session file is a JSON file that includes data and repeats, as illustrated above. An example is provided below.
 ```json
 {
@@ -161,13 +161,17 @@ Sunburst plot can be played with via the GIF demo below. <br/>
 ![Repeats Search Bar](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/input_page4searchBar.jpg) <br />
 Click the repeat in the drop-down list, the clicked repeat will be added.
 
+![Repeats txt File Input](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/input_page4Sunburst_txt.png) <br />
+Input a txt file containing a list of names of repeat subfamilies.
+
 <br />
 <br /> 
 
 
 ![Consensus_Demo](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Consensus_demo.gif) <br />
 **Single click** on the panel would lead to downstream level (class to family to subfamily), and the first **double click** on the panel will select specific family, or subfamily, in which case the colorful panel would become gray. The second **double click** on the panel would undo the selction operation which would lead the panel to colorful one. In contrast, the **single click** on the central white region would back to the upstream level, while the **double click** on the central white region would back to the class level by default.
-![Repeats_Selection_Sunburnt](https://wang.wustl.edu/img/repeats_selection_sunburnt.gif)<br/>
+
+![Repeats_Selection_Sunburnt](https://wang.wustl.edu/img/repeats_selection_sunburnt.gif) <br/>
 Our website includes a useful search feature that allows users to quickly find and select their desired subfamily. By simply typing the name of the subfamily in the search bar and clicking on the corresponding item in the dropdown menu, the subfamily will be selected.
 
 
@@ -211,6 +215,7 @@ We provide some slider bars to customize your parameters of the heatmap. Additio
 
 ## Consensus View
 ![Consensus View](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page2.png) <br />
+Consensus View has 
 
 ### Ruler Track
 ![Ruler Track](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page2rulerDemo.gif) <br />
@@ -223,8 +228,8 @@ This base pair track displays the base pair in the consensus region. It won't sh
 ### Main Tracks of Consensus View
 ![Main Tracks](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page2mainTracks.png) <br />
 These three tracks are <br />
-1. Genome Coverage. It is the count of genome copies on each base pairs of consensus region. 2, 3. The count of the reads on the consensus region. <br />
-2,3. The Read Counts. It is the key tracks. It provides the read counts in user selected data on the consensus region. 
+1. Genome Coverage. It is the count of genome copies on each base pairs of consensus region. <br />
+2. The Read Counts. The second and third tracks are the key tracks. They provide the read counts in user selected data on the consensus region. 
 For the ChIP-seq data, it has two tracks (signal and control). For the others sequencing data, it will only have one track (signal).
 
 ### Add Tracks Button
@@ -256,8 +261,9 @@ If you wish to filter genome copies on the chromosome, you can utilize the filte
 ![Filter Bar](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page4filterBar.png) <br />
 You have the option to add additional data to the cart. The contents of the cart will then be displayed on the genome view. <br />
 And here is the panel to add data.
-![Data Panel](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documenttation/rb_screenshots/visual_page3addPanel.png) <br />
-![Genomeview_Demo](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Genomeview_demo.gif)<br/>
+![Data Panel](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/visual_page3addPanel.png) <br />
+
+![Genomeview_Demo](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Genomeview_demo.gif) <br/>
 
 
 You can also switch to the CAGE-seq heatmap through the Assay Type drop down list.<br/>
