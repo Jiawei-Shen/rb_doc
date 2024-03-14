@@ -1,11 +1,3 @@
-[comment]: <> (# Use the Repeat Browser)
-
-[comment]: <> (Instruction on how to navigate [WashU Repetitive Element Browser]&#40;https://repeatbrowser.org/&#41;)
-
-[comment]: <> (<br />)
-
-[comment]: <> (<br /> )
-
 # Main Page
 ## The Top Menu
 ![The Top Bar Menu](https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/rb_screenshots/headbar.jpg)  
@@ -270,34 +262,29 @@ You can also switch to the CAGE-seq heatmap through the Assay Type drop down lis
 Heatmap view of enrichment scores of datasets on TE subfamilies. Users can click a specific cell where each cell denotes ratio of average score or RPKM as per below. 
 ![Heatmap RPKM Calculation](https://wangftp.wustl.edu/~scheng/repeat_browser/documentation/Heatmap_RPKM.png)
 
+# Repeat Browser Data Processing
+## Data Processing Pipeline
+We have a GitHub repo stores the code of data processing pipeline. You can check [this repo](https://github.com/Jiawei-Shen/Repeat-Browser_data_processing) for the detailed information.
 
-[comment]: <> (### Consensus View)
+## Zarr Data Format
+The Zarr file is essentially a folder containing all the essential information. Below is a sample representation of a Zarr file structure. For more detailed information, refer to the [Zarr Documentation](https://zarr.dev/).
 
-[comment]: <> (![Heatmap_Jumpto_Consensus]&#40;https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Heatmap_jumpto_Consensus.gif&#41;<br/>)
+To utilize Zarr in Repeat Browser, simply input the path to the Zarr file, for example: `/path/to/your.zarr/`.
 
-[comment]: <> (Users can click a specific cell and jump to the Consensus View panel.)
-
-[comment]: <> (![Consensus View]&#40;https://wangftp.wustl.edu/~scheng/repeat_browser/documentation/DataVisual_ConsensusVIew.png&#41;)
-
-[comment]: <> (Consensus View panel &#40;above&#41; displays epigenomic data anchored on a TE consensus sequence. Both unique reads and multi-reads can be displayed.<br/>)
-
-[comment]: <> (You can explore different biological meanings with different assay types, like open chromatin regions with ATAC-seq data, gene expression level with CAGE-seq, and TF binding sites with ChIP-seq data. The specific TE subfamily on different datasets can also be compared through the **Add Track** function, and the All reads and Uniquely-mapped reads can also be explored. Besides, the genome coverage and raw consensus sequence are also provided for further exploration.)
-
-[comment]: <> (![Consensus_Demo]&#40;https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/Consensus_demo.gif&#41;<br/>)
-
-
-[comment]: <> (:bangbang:Users can click the **Genome View** on the left panel or the right-buttom button to jump to the Genome View panel.)
-
-[comment]: <> (![Genome View]&#40;https://wangftp.wustl.edu/~scheng/repeat_browser/documentation/DataVisual_GenomeView.png&#41;)
-
-[comment]: <> (Genome view &#40;above&#41; is a bird’s eye view of different locations of TE copies on the genome. A filter sets the threshold of enrichment scores of corresponding TE copies is provided.)
-
-[comment]: <> (You can get the distribution of the uniquely-mapped reads of specific TE subfamily on Genome View and different shades represent different RPKM values &#40;the darker the higher&#41;, where you adjust the threshold via the side bar to only show selected reads. The specific TE subfamily on different datasets can also be compared through the **Add Genome Copies** function, where you can explore the expression differences among different datasets.)
-
-[comment]: <> (Furthermore, to enhance the utility of Repeat Browser, we also link the Repeat Browser with WashU Epigenome Browser where users can choose view the interested individual TE copies on the WashU Epigenome Browser, using the **Region set View** function by which we can display multiple genomic locations side by side,optionally with customizable upstream and  downstream flanking regions &#40;below&#41;.)
-
-[comment]: <> (![Region View Set]&#40;https://wangftp.wustl.edu/~scheng/repeat_browser/documentation/HeLa-S3_STAT1_MER41B_region_view_set.png&#41;)
-
+```
+/your.zarr
+├── all_bigwig
+│   └── 0.0 (chunks)
+├── uni_bigwig
+│   └── 0.0 (chunks)
+├── subfam_stat
+│   └── 0.0 (chunks)
+├── loci_*
+│   └── 0.0 (chunks)
+├── .zattrs
+├── .zgroup
+└── .zmetadata
+```
 
 
 
