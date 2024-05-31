@@ -11,8 +11,12 @@ Welcome to WashU Repeat Browser's documentation!
 
 Here is an overall tutorial video!
 ========================================================
-.. video:: https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/repeat_browser_workshop.mp4
-   :alt: repeat browser tutorial video
+.. raw:: html
+
+   <video width="640" height="360" controls>
+     <source src="https://s3-obs1.htcf.wustl.edu/repeatbrowser/documentation/repeat_browser_workshop.mp4" type="video/mp4">
+     repeat browser tutorial video
+   </video>
 
 .. toctree::
    :maxdepth: 2
